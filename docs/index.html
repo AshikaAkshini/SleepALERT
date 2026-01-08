@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stainless Student Guard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+</head>
+<body>
+
+    <h1> Stainless Study Guard</h1>
+    <p>Monitoring for Absence and Sleeping.</p>
+
+    <button id="startBtn">START MONITORING</button>
+
+    <div id="video-box" style="display:none;">
+        <video id="video" autoplay playsinline></video>
+        <div id="status">Waiting for camera...</div>
+    </div>
+
+    <audio id="alarm" src="Akshini_ALERTtamil.mp4" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
